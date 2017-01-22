@@ -1,0 +1,16 @@
+rootFolder = /home/jaimeet/ImageDenoising/Preprocessing/01_StandardImages/
+inputFolder = AWG_sigma025
+
+imageHeader = standard_AWG_sigma025
+
+inputFolder_Ref = CR_samples/Jpeg_Images 
+outputFolder= /home/jaimeet/ImageDenoising/Preprocessing/01_StandardImages/BLS-GSM025_CR_Samples
+imageHeader_Ref = standard
+imageExt = png
+
+% four digit format for start and end Num
+startNum = 0000
+endNum = 0012
+
+% three digit format for sigma
+sigma = 025
