@@ -1,0 +1,9 @@
+MLP Installation Help:
+
+-Download link: 'http://www.io.csic.es/PagsPers/JPortilla/software/section/3-bayesian-denoising-in-the-wavelet-domain'.
+-Download the required Wavelet toolbox from: 'github.com/ricedsp/rwt'.
+-Go to '/rwt-master/bin' and execute 'compile.m' to compile the wavelet toolbox.
+-Add path of all the subfolder to have access to funtion and sub-funtion. 
+-You can set the parameter from the parameter file 'method_parmas.txt'.
+-Make sure to convert 'string' to 'double' format for the numrical paramter imported from the parameter file. For eg: sigmaDouble = str2double(sigma);
+
