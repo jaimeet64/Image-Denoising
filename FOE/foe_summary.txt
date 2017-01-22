@@ -1,0 +1,8 @@
+*Summary of FOE:
+
+FOE has certain similarities to CNN in which both techniques use linear filter banks followed by nonlinear functions to model and process images in a convolution-based manner. These techniques differ in a way that CNN is typically trained for a specific application, while FOE learns the generic prior which can be directly used in different applications.One important parameter of the model is the size of cliques in the Markov model, as cliques capture dependencies of the neighborhood pixel. Cliques can be defined as diamond, square, etc. Filter shape is chosen in such a way that the filter coefficients of the filters are forced to be zero outside the clique size. The authors believe that the size of the image used in training should be significantly larger than the clique size, but with larger the size of the image, Markov chain Monte Carlo (MCMC) sampling becomes inefficient. As a tradeoff, image size is usually preferred with 3-5 times greater than the clique size. Additionally, authors believe that results (in terms of PSNR and SSIM) can be improved by increasing the number of filters for a specific model (e.g., square or diamond shaped filters). For this framework, because of the fixed clique size, the model seems not to be able to capture scale invariant information, necessary to model natural images; hence this method was not able to generate competitive results in my experiments.
+
+
+ 
+
+
