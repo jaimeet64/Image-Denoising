@@ -1,0 +1,6 @@
+MLP Installation Help:
+
+-Download link: 'http://people.tuebingen.mpg.de/burger/neural_denoising/'
+-Download appropriate weights for for the given noise level. 
+-Make sure to convert 'string' to 'double' format for the numrical paramter imported from the parameter file. For eg: sigmaDouble = str2double(sigma);
+-You can set the parameter from the parameter file 'method_parmas.txt'
