@@ -1,0 +1,17 @@
+KSVD installation help:
+
+-Download Link: 'http://www.cs.technion.ac.il/~ronrubin/software.html'
+- Make sure OMPBox v10 is installed prior to installing this package.
+- Unpack the contents of the compressed file to a new directory, named e.g. "ksvdbox".
+- If you have not done so before, configure Matlab's MEX compiler by entering
+    >> mex -setup
+   prior to using MAKE. For optimal performance, it is recommended that you select a compiler
+   that performs optimizations. 
+- Within Matlab, navigate to the KSVDBox directory, and then to the "private" directory within it,
+   and enter MAKE to run the compilation script.
+- Add the KSVDBox package directory to the Matlab path (you can use the ADDPATH command for this).
+   Do not add the private directory to the path.
+- Make sure to convert 'string' to 'double' format for the numrical paramter imported from the parameter file. For eg: sigmaDouble = str2double(sigma); 
+- You can set the parameter from the parameter file 'method_parmas.txt'.
+- Enter "ksvd_denoise_demo" at the Matlab command prompt to generate dataset for denoised image.
+
