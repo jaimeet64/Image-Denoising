@@ -1,0 +1,20 @@
+KSVD:
+
+KSVD is a sparse representation technique which denoises the image with by updating dictionary which contains sparse representation of the image.
+
+It is noted that the PSNR of the denoised image increases rapidly with number of iteration and it is  poised after 20-25 iterations.
+
+
+About KSVD Dictionary:
+
+Traditionally, dictionary use to be one of the known set of transforms (steerable wavelet, Curvelet, Counterlets,Bandlets), but now dictionary training is performed to create the sparse representation.
+
+There are two options for updating of dictionary:
+
+i)Globally trained Dictionary: Dictionary trained different images.
+
+ii)Adaptive trained dictionary. Dictionary trained with same image with different noise level.
+
+Results obtained by adaptive trained dictionary gives better results compared to Globally trained dictionary. 
+
+Patches are sorted in an ascending order of their variance in KSVD dictionaries.  
