@@ -1,0 +1,6 @@
+BM3D proposed a novel image denoising strategy based on an enhanced sparse representation in transform domain. The enhancement of the sparsity is achieved by grouping similar 2-D image fragments (e.g., blocks) into 3-D data arrays which authors call “groups.” Collaborative filtering is a special procedure developed to deal with these 3-D groups. It can be inferred that by using the three successive steps:
+I. 3-D transformation of a group.
+II. Shrinkage of the transform spectrum.
+III. Inverse 3-D transformation.
+The result is a 3-D estimate that consists of the jointly filtered grouped image blocks. The filtered blocks are then returned to their original positions. As these blocks are overlapping, for each pixel, we obtain many different estimates which need to be combined. Aggregation is in particular an averaging procedure which is exploited to take advantage of this redundancy. A significant improvement is obtained by a specially developed collaborative Wiener filtering. The experimental results have demonstrated that this computationally scalable algorithm achieves state-of-the-art denoising performance in terms of both PSNR and SSIM values.
+
