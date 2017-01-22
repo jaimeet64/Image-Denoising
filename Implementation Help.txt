@@ -1,0 +1,5 @@
+BM3D Installation Help:
+
+-Download link: 'http://www.cs.tut.fi/~foi/GCF-BM3D/'
+-Make sure to convert 'string' to 'double' format for the numrical paramter imported from the parameter file. For eg: sigmaDouble = str2double(sigma);
+-You can set the parameter from the parameter file 'method_parmas.txt'
